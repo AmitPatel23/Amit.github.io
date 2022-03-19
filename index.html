@@ -44,9 +44,6 @@
 
 <body>
 
-	<?php
-		include 'form_data/data.php';
-	?>
 <header>	
 <div class="container">
 <!-- nav -->
@@ -121,7 +118,7 @@
 					<a href="#"> Read More </a>
 				</div>
 				<div class="col-md-5 image_margin">
-					<img src="images/img1.png" alt="" class="img-fluid" />
+					<img src="images/amit.png" alt="" class="img-fluid" style="height: 600px; width: 350px;" />
 				</div>
 			</div>
 		</div>
@@ -137,10 +134,10 @@
 			<div class="col-lg-4">
 				<h4>I'm a UI Designer and Front End Developer from Montreal!</h4>
 				<p>I enjoy taking complex problems and turning them into simple and beautiful web design. I also love the logic and structure of coding and always strive to write elegant and efficient code. whether it be HTML, CSS or JavaScript. <br>When I'm not coding, you'll find me in the gym or on a running track!</p>
-				<a href="#">Download CV <span class="fa ml-2 fa-download"></span></a>	
+				<a href="CV/CV.pdf" download="GFG" target="_blank">Download CV <span class="fa ml-2 fa-download"></span></a>	
 			</div>
 			<div class="col-lg-4 col-md-6 my-lg-0 my-5">
-				<img src="images/img.jpg" alt="" class="img-fluid" />
+				<center><img src="images/amit.jpg" style="height: 400px; width: 230px;"></center>
 			</div>
 			<div class="col-lg-4 bar-grids">
 				<div class="wthree_skills">
@@ -458,10 +455,11 @@
 			</div>
 			<div class="col-lg-7 mt-lg-0 mt-5 contact-right">
 				<h4 class="mb-4">Get In Touch</h4>
-				<form action="#" method="post">
+				
+				<form action="https://localhost/data.php" method="post">
 					<label><i class="fa mr-2 fa-user" aria-hidden="true"></i> Name</label>
 					<input type="text" name="Name" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
-					<div class="clearfix"></div>
+					<div 	class="clearfix"></div>
 					<label><i class="fas mr-2 fa-envelope-open" aria-hidden="true"></i>Email</label>
 					<input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
 					<div class="clearfix"></div>
@@ -485,22 +483,21 @@
 			<div class="agile-grid-left agile-grid-right text-center">
 				<div class="social mb-4">
 					<ul>
-						<li><a href="https://www.facebook.com/profile.php?id=100053438058734"><i class="fab mr-2 fa-facebook-f"></i></a></li>
-						<li><a href="https://twitter.com/AmitPat43928548"><i class="fab mr-2 fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fab mr-2 fa-envelope"></i></a></li>
-						<li><a href="#"><i class="fab mr-2 fa-pinterest"></i></a></li>
-						<li><a href="#"><i class="fab mr-2 fa-vk"></i></a></li>
+						<li><a href="https://www.facebook.com/profile.php?id=100053438058734" target="_blank"><i class="fab mr-2 fa-facebook-f"></i></a></li>
+						<li><a href="https://twitter.com/AmitPat43928548" target="_blank"><i class="fab mr-2 fa-twitter"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fab mr-2 fa-google-plus"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fab mr-2 fa-pinterest"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fab mr-2 fa-vk"></i></a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
 		<div class="copyright text-center">
-			<p>© 2018 Personal View. All Rights Reserved | Design by <a href="http://w3layouts.com/"> W3layouts</a> </p>
+			<p>© 2018 Personal View. All Rights Reserved | Design by <b>AMIT PATEL</b> </p>
 		</div>
 	</div>
 </footer>
 <!-- //footer -->
-
 
 	<!-- js -->
 	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
